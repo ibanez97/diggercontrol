@@ -1,8 +1,8 @@
 #!/bin/bash
 killall websocketd
 
-PATHTOHTML="/home/ibanez/Documents/shell/excavator/html"
-PATHTOSHELL="/home/ibanez/Documents/shell/excavator/shell"
+PATHTOHTML="/home/expuser/excavator/html"
+PATHTOSHELL="/home/expuser/excavator/shell"
 
 websocketd --port=8080 --staticdir=$PATHTOHTML $PATHTOSHELL/excavator.gstreamer.sh &
 websocketd --port=8081 --devconsole $PATHTOSHELL/excavator.control.sh &
