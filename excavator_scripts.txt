@@ -1,0 +1,7 @@
+start chair application:
+export DISPLAY=:0
+/home/simulator/projects/volvo-remote-controlled-excavator/simulator.sh
+
+start excavator application: 
+export DISPLAY=:0
+/home/simulator/work/volvo-remote-controlled-excavator/excavator.sh
